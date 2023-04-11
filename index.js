@@ -6,11 +6,11 @@ const getRandNumber = (start, end) => Math.floor(Math.random() * (end - start + 
 
 
 
-// document.write("<h2>大樂透號碼</h2>")
-// for (let i = 0; i < 5; i++) {
-//     let lotto = getLotto(start, end);
-//     lottos.push(lotto)
-// }
+document.write("<h2>大樂透號碼</h2>")
+for (let i = 0; i < 5; i++) {
+    let lotto = getLotto(start, end);
+    lottos.push(lotto)
+}
 
 // 三元運算子
 
